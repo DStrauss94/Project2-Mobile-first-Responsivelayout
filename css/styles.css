@@ -1,30 +1,46 @@
-header{
-    
-}
+
 
 body{
-    background-color:#FDF5E6;
+    background-color:rgb(202, 202, 202);
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
-
-.whiteh4{
+.headerLinks, a{
     background-color: white;
-    border-top: 10px;
-    margin-bottom: -10px;
-    border-bottom: 5px;
+    margin-left: 1em;
+    margin-right:1em;
+    margin-bottom: .3em;
+    padding-top: .8em;
     
-    
-}
 
-h4{
+}
+.headerLinks a:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 1px;
+    
+  }
+
+a:visited{
+    color:black;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+
+#portfolioTitle{
     padding-top: .8em;
     padding-bottom: .8em;
-
+    
 }
 
 img{
     margin-top: 40px;
+    width: 75%;
+    height: 75%;
 }
 
 .projects{
@@ -33,8 +49,151 @@ img{
 }
 
 footer{
-    background-color: white;
+    
+    margin-top: 4em;
+    padding-bottom: 2em;
+    padding-left:1em;
+    padding-right:1em;
+    margin-bottom: 4em;
 }
 
+#name{
+    float: left;
+}
+
+#alignright{
+    float:right;
+    
+}
+
+#calcp{
+    margin-bottom:0;
+}
+
+
+@media(min-width: 768px){
+            .headerLinks, a{
+                display: inline-block;
+                background-color: rgb(202, 202, 202);
+            }
+
+            .intro{
+                background-color: rgb(202, 202, 202);
+                
+                
+                
+            }
+
+
+            #profile-pic{
+                float: right;
+                width: 35%;
+                margin-left: 1.2em;
+                margin-top:1.4em;
+                margin-right: 2em;
+                margin-bottom: 3em;
+
+            }
+
+            #p-intro{
+                font-size: 20px;
+                padding-top: 1em;
+            }
+
+            #description{
+                font-size: 110%;
+                padding-left: 3em;
+                padding-right:3em;
+            }
+
+            .projects{
+                margin: auto;
+            }
+
+           
+            .intro::after {
+                content: "";
+                clear: both;
+                display: block;
+              }
+
+              .column{
+                  float: left;
+                  width: 45%;
+                  margin-left: 1.5em;
+              }
+              #left{
+                  width:100%;
+              }
+              #right{
+                  width: 100%;
+                  
+              }
+             
+
+              .row::after{
+                  content: "";
+                  clear: both;
+                  display: table;
+              }
+
+
+      
+           
+        }
+
+        @media(min-width: 1024px){    
+           
+            h1{
+                float: left;
+                margin-left: 2em;
+            }
+            
+
+          .endLinks, a{
+              display: inline-block;
+              
+              
+        }
+
+
+          .endLinks{
+              float: right;
+          }
+
+          
+
+          #alignright{
+              display: none ;
+          }
+            
+            
+            
+            .column{
+                float: left;
+                width: 30%;
+                
+            }
+
+            #p-intro{
+                font-size: 30px;
+                padding-top: 1em;
+            }
+
+            footer{
+                background-color:rgb(202, 202, 202);
+                padding-top: 2em;
+                padding-bottom: 0 ;
+                margin-bottom: 0;
+                font-size: 25px;
+            }
+
+
+
+    
+            
+
+
+        }
 
 
