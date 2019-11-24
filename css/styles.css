@@ -23,6 +23,10 @@ body{
     
   }
 
+  .endLinks{
+      display:none;
+  }
+
 a:visited{
     color:black;
 }
@@ -55,6 +59,7 @@ footer{
     padding-left:1em;
     padding-right:1em;
     margin-bottom: 4em;
+    background-color:rgb(202, 202, 202);
 }
 
 #name{
@@ -137,6 +142,31 @@ footer{
                   display: table;
               }
 
+             .lastSection{
+                 margin-bottom: 1em;
+                 background-color: rgb(202, 202, 202);
+             }
+
+              .endLinks{
+                display: inline-block;
+                margin-left: 7em;
+                background-color: rgb(202, 202, 202);
+                float: right;
+                
+                 
+                
+                
+          }
+
+          footer{
+              background-color: rgb(202, 202, 202);
+              margin-bottom: 0;
+          }
+
+          #alignright{
+              display:none;
+          }
+
 
       
            
@@ -155,6 +185,11 @@ footer{
               
               
         }
+      
+
+        .allLinks{
+            float:right;
+        }
 
 
           .endLinks{
@@ -172,6 +207,7 @@ footer{
             .column{
                 float: left;
                 width: 30%;
+                margin-top: 2em;
                 
             }
 
@@ -188,7 +224,16 @@ footer{
                 font-size: 25px;
             }
 
+            .main-header::after {
+                content: "";
+                clear: both;
+                display: block;
+              }
 
+            
+            #description{
+                min-height: 100px;
+            }
 
     
             
