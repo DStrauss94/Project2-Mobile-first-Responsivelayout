@@ -1,141 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    </head>
 
-<body>
-    
-    <header class="main-header">
+    <body>
 
+        <div class="container"> 
         
-            <h1>Douglas Strauss</h1>
+            <header class="main-header">
 
-            <div class="allLinks">
+                <h1>Douglas Strauss</h1>
 
-                <div class="headerLinks">
-                    <a href="index.html" id="home">HOME</a>
-                    
-                </div>
-                
-                <div class="headerLinks">
-                    
-                    <a href="">PORTFOLIO</a>
-                    
-                </div> 
+                <div class="allLinks">
 
-                <div class="headerLinks">
-                    <a href="">CONTACT</a>
-                </div>
-            </div>     
-       
-    </header>
+                    <div class="headerLinks">
+                        <a href="index.html">HOME</a>
+                    </div>
+                        
+                    <div class="headerLinks">
+                        <a href="#">PORTFOLIO</a>
+                    </div> 
 
-    
-    <div class="intro">
-        <img src="images/responsive-layout-profile.png" id="profile-pic" alt="profile pic">
-    
-        <p id="p-intro">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree
-           in front-end development at Treehouse and am excited to put all my skills to use!
-        </p>
-    </div>
-    
-
-    <div class="projects">
-        <h4 id="portfolioTitle">PORTFOLIO</h4>
-
-        <div class="row">
+                    <div class="headerLinks">
+                        <a href="#">CONTACT</a>
+                    </div>
+                </div>     
             
-            <div class="column">
-                <img src="images/portfolio-1.png" id="left" alt="portfolio-1">
-                <h4>Marketing Page</h4>
-                <p id="description">The project shows the front page of a marketing website
-                meant for a specific business i'm interested in.</p>
-            </div>
-                    
-            <div class="column">
-                <img src="images/portfolio-2.png" id="right" alt="portfolio-2" >
-                <h4>Search Page</h4>
-                <p id="description">This project searches through a specific database to find information
-                  that the user is trying to look up.
-                </p>   
-            </div>
-                
-       
-            <div class="column">
-                <img src="images/portfolio-3.png" id="left" alt="portfolio-3" >
-                <h4>Travel App</h4>
-                <p id="description">The project compares travel times based on different
-                    transportation methods and tells you the best one.
+            </header>
+
+            
+            <div class="intro">
+                <img src="images/responsive-layout-profile.png" id="profile-pic" alt="profile pic">
+            
+                <p id="p-intro">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree
+                in front-end development at Treehouse and am excited to put all my skills to use!
                 </p>
             </div>
             
-            <div class="column">
-                <img src="images/portfolio-4.png" id="right" alt="portfolio-4" >
-                <h4>Map of Favorite Spots</h4>
-                <p id="description">This project uses mapping apis to plot the point for my favorite
-                spots in the city for a do-it-yourself walking tour.
-                </p>
-            </div>
-        
-        
-       
-                <div class="column">
-                    <img src="images/portfolio-5.png" id="left" alt="portfolio-4" >
-                    <h4>Photo Gallery</h4>
-                    <p id="description"> This project shows pictures form a recent trip to the viewer
-                        and allows them to easily navigate through photos.
-                    </p>
-                </div>
-                
-                <div class="column">
-                    <img src="images/portfolio-6.png" id="right" alt="portfolio-6" >
-                    <h4>Calculator</h4>
-                    <p id="description">Someone can enter in numbers they want, and press the big
-                        big blue button and get the result.
-                    </p>   
-                </div>
+
+            <div class="projects">
+                <h4 id="portfolioTitle">PORTFOLIO</h4>
+
+                <div class="row">
+                    
+                    <div class="column">
+                        <img src="images/portfolio-1.png" class="left" alt="portfolio-1">
+                        <h4>Marketing Page</h4>
+                        <p class="description">The project shows the front page of a marketing website
+                        meant for a specific business i'm interested in.</p>
+                    </div>
+                            
+                    <div class="column">
+                        <img src="images/portfolio-2.png" class="right" alt="portfolio-2" >
+                        <h4>Search Page</h4>
+                        <p class="description">This project searches through a specific database to find information
+                        that the user is trying to look up.
+                        </p>   
+                    </div>
+                        
             
-        
+                    <div class="column">
+                        <img src="images/portfolio-3.png" class="left" alt="portfolio-3" >
+                        <h4>Travel App</h4>
+                        <p class="description">The project compares travel times based on different
+                            transportation methods and tells you the best one.
+                        </p>
+                    </div>
+                    
+                    <div class="column">
+                        <img src="images/portfolio-4.png" class="right" alt="portfolio-4" >
+                        <h4>Map of Favorite Spots</h4>
+                        <p class="description">This project uses mapping apis to plot the point for my favorite
+                        spots in the city for a do-it-yourself walking tour.
+                        </p>
+                    </div>
+                
+                
+            
+                    <div class="column">
+                        <img src="images/portfolio-5.png" class="left" alt="portfolio-4" >
+                        <h4>Photo Gallery</h4>
+                        <p class="description"> This project shows pictures form a recent trip to the viewer
+                                and allows them to easily navigate through photos.
+                        </p>
+                    </div>
+                        
+                    <div class="column">
+                        <img src="images/portfolio-6.png" class="right" alt="portfolio-6" >
+                        <h4>Calculator</h4>
+                        <p class="description">Someone can enter in numbers they want, and press the big
+                                big blue button and get the result.
+                        </p>   
+                    </div>
+                    
+                
+                </div>
+            </div>
+
+            
+            <footer>
+                <h4>Contact</h4>
+                <p id="contact-description">
+                If you're interested in chatting or want more information
+                on what i've been working on , i'd love to hear from you!
+                </p>
+                <p >Phone <strong>+1(111)555-1234</strong></p>
+                <p >Email <strong>email@yoursite.com</strong></p>
+                <hr>
+
+                <div class="footer-nav">
+                
+                        <p id="name">Douglas Strauss</p>
+                        <a href="index.html" id="alignright">BACK TO TOP</a>
+
+                        <div class="endLinks">
+
+                            <a href="index.html"> HOME</a>
+                            <a href="#" > PORTFOLIO</a>
+                            <a href="#" > CONTACT</a>
+                        </div>
+                    </div>
+            </footer>
+    
         </div>
-
-    
-    <footer>
-        <h4>Contact</h4>
-        <p>If you're interested in chatting or want more information
-           on what i've been working on , i'd love to hear from you!
-        </p>
-        <p >Phone <strong>+1(111)555-1234</strong></p>
-        <p >Email <strong>email@yoursite.com</strong></p>
-        <hr>
-    </footer>
-   
-    <div class="lastSection">
-        
-        <p id="name">Douglas Strauss</p>
-        <p id="alignright">Back To The Top</p>
-        
-        <div class="endLinks">
-                <a href="index.html"> HOME</a>
-            
-            
-            
-                <a href="#" > PORTFOLIO</a>
-            
-            
-                <a href="#" > CONTACT</a>
-            </div>
-       
-    </div>
-
-    
-    
-
-
     </body>
 </html>

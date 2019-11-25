@@ -23,6 +23,17 @@ body{
     
   }
 
+  .description{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+ 
+
+  h4{
+    padding-top: 1em;
+}
+
   .endLinks{
       display:none;
   }
@@ -41,6 +52,11 @@ a:link {
     
 }
 
+#p-intro{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 img{
     margin-top: 40px;
     width: 75%;
@@ -49,12 +65,12 @@ img{
 
 .projects{
     background: white;
+    padding-bottom: 3.5em;
     
 }
 
 footer{
-    
-    margin-top: 4em;
+    margin-bottom: 1em;
     padding-bottom: 2em;
     padding-left:1em;
     padding-right:1em;
@@ -68,7 +84,12 @@ footer{
 
 #alignright{
     float:right;
-    
+    background-color: rgb(202, 202, 202);
+    padding-top:1em;
+}
+
+.container{
+    max-width: 1400px;
 }
 
 #calcp{
@@ -85,10 +106,7 @@ footer{
             .intro{
                 background-color: rgb(202, 202, 202);
                 
-                
-                
             }
-
 
             #profile-pic{
                 float: right;
@@ -103,12 +121,18 @@ footer{
             #p-intro{
                 font-size: 20px;
                 padding-top: 1em;
+               
             }
 
-            #description{
+            .description{
                 font-size: 110%;
                 padding-left: 3em;
                 padding-right:3em;
+            }
+
+            #contact-description{
+                padding-left: 20%;
+                padding-right: 20%;
             }
 
             .projects{
@@ -127,10 +151,10 @@ footer{
                   width: 45%;
                   margin-left: 1.5em;
               }
-              #left{
+              .left{
                   width:100%;
               }
-              #right{
+              .right{
                   width: 100%;
                   
               }
@@ -142,21 +166,18 @@ footer{
                   display: table;
               }
 
-             .lastSection{
+             .footer-nav{
                  margin-bottom: 1em;
                  background-color: rgb(202, 202, 202);
              }
 
               .endLinks{
-                display: inline-block;
-                margin-left: 7em;
-                background-color: rgb(202, 202, 202);
+                display: block;
                 float: right;
-                
-                 
-                
-                
-          }
+                background-color: rgb(202, 202, 202);
+            }
+
+            
 
           footer{
               background-color: rgb(202, 202, 202);
@@ -165,6 +186,7 @@ footer{
 
           #alignright{
               display:none;
+              
           }
 
 
@@ -178,13 +200,13 @@ footer{
                 float: left;
                 margin-left: 2em;
             }
+
+            h4{
+                padding-top: 0;
+            }
             
 
-          .endLinks, a{
-              display: inline-block;
-              
-              
-        }
+         
       
 
         .allLinks{
@@ -213,7 +235,7 @@ footer{
 
             #p-intro{
                 font-size: 30px;
-                padding-top: 1em;
+                
             }
 
             footer{
@@ -231,7 +253,7 @@ footer{
               }
 
             
-            #description{
+            .description{
                 min-height: 100px;
             }
 
